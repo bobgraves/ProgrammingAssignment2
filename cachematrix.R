@@ -78,6 +78,7 @@ testSolve <- function() {
     print("Case 1 - second call to CacheSolve")
     mi2 <- cacheSolve(mx)
     print(mi2)
+    
     print("Case 2 - 2x2 data=1:4 matrix")
     m <- matrix(1:4,nrow=2,ncol=2)
     mx <- makeCacheMatrix(x = m)
@@ -87,6 +88,7 @@ testSolve <- function() {
     print("Case 2 - second call to CacheSolve ")
     mi2 <- cacheSolve(mx)
     print(mi2)
+    
     print("Case 3 - 2x2 matrix")
     m <- matrix(c(4,3,3,2),nrow=2,ncol=2)
     mx <- makeCacheMatrix(x = m)
